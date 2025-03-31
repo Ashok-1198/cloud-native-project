@@ -2,7 +2,6 @@
 FROM python:3.9-slim
 
 # Set environment variables
-# Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV PORT=8080
@@ -22,5 +21,5 @@ COPY . .
 # Expose port for Cloud Run
 EXPOSE 8080
 
-# Start the Flask app with Gunicorn
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "--workers=1", "--threads=8", "--timeout=0", "main:app"]
+# Start the Flask app with Gunicorn (fixed spacing)
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "--workers=1", "--threads=8", "--timeout=0", "main:app"]
