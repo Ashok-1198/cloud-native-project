@@ -8,7 +8,7 @@ ENV PYTHONUNBUFFERED=1
 ENV PORT=8080
 
 # Set the working directory in the container
-WORKDIR $APP_HOME
+WORKDIR /app
 
 # Copy only requirements first for caching dependencies
 COPY requirements.txt ./
