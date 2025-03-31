@@ -36,7 +36,7 @@ def index():
         <style>
             body {
                 font-family: Arial, sans-serif;
-                background-color: blue;
+                background-color: green;
                 padding: 30px;
                 color: #333;
             }
@@ -192,7 +192,7 @@ def get_file(filename):
         <style>
             body {{
                 font-family: Arial, sans-serif;
-                background-color: blue;
+                background-color: green;
                 padding: 30px;
                 color: #333;
             }}
